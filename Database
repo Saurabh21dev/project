@@ -1,0 +1,7 @@
+create database SDbank;
+use SDbank;
+create table customers(account_no int primary key  , name varchar(50) ,phone int,DOB varchar(50),Address varchar(50),opening_Balance int);
+show tables;
+desc customers;
+ 
+
